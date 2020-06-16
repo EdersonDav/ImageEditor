@@ -13,4 +13,5 @@ function resize(path, width) {
       }
     })
 }
+
 resize(path, width)
