@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/EdersonDav/ImageEditor#readme",
   "dependencies": {
+    "giflossy": "^3.0.41",
+    "pngquant-bin": "^6.0.0",
     "sharp": "^0.25.4"
+  },
+  "devDependencies": {
+    "compress-images": "^1.7.8"
   }
 }
