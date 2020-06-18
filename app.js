@@ -36,15 +36,15 @@ function compress(INPUT_path, OUTPUT_path) {
       console.log(completed);
       console.log(statistic);
       console.log("-------------");
+      fs.unlink(INPUT_path, (error) => {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log("sucess");
+        }
+      });
     }
   );
-  fs.unlink(INPUT_path, (error) => {
-    if (error) {
-      console.log(error);
-    } else {
-      console.log("sucess");
-    }
-  });
 }
 
 resize(path, `./temp/output_resize${width}.jpg`, width);

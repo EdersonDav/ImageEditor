@@ -18,6 +18,7 @@
   "homepage": "https://github.com/EdersonDav/ImageEditor#readme",
   "dependencies": {
     "giflossy": "^3.0.41",
+    "gifsicle": "^5.1.0",
     "pngquant-bin": "^6.0.0",
     "sharp": "^0.25.4"
   },
